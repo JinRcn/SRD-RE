@@ -21,6 +21,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 2. Supervised RNA editing detection
 
    perl REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+
+   We have tested our method on Stereo-seq and Visium data.
+   
    
    
 
