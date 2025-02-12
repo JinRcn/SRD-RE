@@ -4,7 +4,8 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ![image](https://github.com/user-attachments/assets/a2e7c5a6-df2d-4d0d-96ce-c00f174e0ab7)
 
+# Requirements
 
+### Samtools
 
-
-
+# Usage
