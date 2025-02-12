@@ -9,6 +9,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 #### Samtools
 #### Perl
 
+
 ## Usage
 
 1. To remove PCR duplicate reads and reads aligned to multiple loci
