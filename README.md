@@ -12,6 +12,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 ## Usage
 
 1. To remove PCR duplicate reads and reads aligned to multiple loci
+   
    Sort alignments by leftmost coordinates were required.
 
 3. Supervised RNA editing detection
