@@ -13,9 +13,13 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
-   Sorted BAM files with alignments by leftmost coordinates were required.
-
    perl rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
+
+   Sorted BAM files with alignments ordered by leftmost coordinates were required as input.
    
-3. Supervised RNA editing detection
+2. Supervised RNA editing detection
+
+   perl REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+   
+   
 
