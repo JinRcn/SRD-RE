@@ -10,3 +10,8 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 #### Perl
 
 ## Usage
+
+1. To remove PCR (Polymerase chain reaction) duplicate reads and reads aligned to multiple loci
+
+2. Supervised RNA editing detection
+
