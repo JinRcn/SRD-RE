@@ -84,7 +84,7 @@ For Visium
 
    Notes:
    
-   Ensure that the paths to the Perl scripts (rmDup.pl, REcallingSt.pl, rmDupStVisiumIllumina.pl, REcallingStVisiumIllumina.pl) and the samtools executable are correct.
+   Ensure that the paths to the Perl scripts and the samtools executable are correct.
 
    Replace <input.bam>, <output.bam>, dataset, outdir, and other placeholders with actual values specific to your data and environment.
 
