@@ -66,7 +66,7 @@ For Visium
 
    optional arguments:
 
-   -barcode2slide Visium/barcodes/visium-v1_coordinates.txt: The path to the barcode-to-slide coordinates file.
+   -barcode2slide Visium/barcodes/visium-v*_coordinates.txt: The path to the barcode-to-slide coordinates file.
 
    -dataset dataset: The path to the dataset.
 
