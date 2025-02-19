@@ -83,7 +83,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
 
-Notes:
+#### Notes:
    
    Ensure that the paths to the Perl scripts and the samtools executable are correct.
 
