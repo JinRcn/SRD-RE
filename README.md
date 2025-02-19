@@ -18,6 +18,8 @@ For Stereo-seq
    
    perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
+   optional arguments:
+
    -inBam <input.bam>: Specifies the input BAM file.
    
    -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
@@ -27,6 +29,8 @@ For Stereo-seq
 3. Supervised detection of RNA editing 
 
    perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+
+   optional arguments:
 
    -dataset dataset: Specifies the path to the dataset.
 
@@ -48,6 +52,8 @@ For Visium
    
    perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
+   optional arguments:
+
    -inBam <input.bam>: Specifies the input BAM file.
 
    -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
@@ -57,6 +63,8 @@ For Visium
 3. Supervised detection of RNA editing 
 
    perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v1_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+
+   optional arguments:
 
    -barcode2slide Visium/barcodes/visium-v1_coordinates.txt: Specifies the path to the barcode-to-slide coordinates file.
 
