@@ -82,7 +82,7 @@ For Visium
 
    -qual_cutoff 20: The quality cutoff for base calling.
 
-   Notes:
+Notes:
    
    Ensure that the paths to the Perl scripts and the samtools executable are correct.
 
