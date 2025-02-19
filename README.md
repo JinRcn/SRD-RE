@@ -36,7 +36,7 @@ For Stereo-seq
 
    -bam <output.bam>: The input BAM file (output from the previous step).
 
-   -suffix bam: The suffix of the input file.
+   -suffix bam: The suffix of the input file. [Default: bam]
 
    -outdir outdir: The output directory for results.
 
@@ -72,7 +72,7 @@ For Visium
 
    -bam <output.bam>: The input BAM file (output from the previous step).
 
-   -suffix bam: The suffix of the input file.
+   -suffix bam: The suffix of the input file. [Default: bam]
 
    -outdir outdir: The output directory for results.
 
