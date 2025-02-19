@@ -21,11 +21,11 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    optional arguments:
 
-   -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input.
+      -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input.
    
-   -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
+      -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
    
-   -samtools samtools: The path to the samtools executable.
+      -samtools samtools: The path to the samtools executable.
    
 #### Step 2. Supervised detection of RNA editing 
 
