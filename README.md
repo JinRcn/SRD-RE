@@ -13,7 +13,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ## Usage
 
-#### For Stereo-seq
+#### For Stereo-seq:
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
@@ -47,7 +47,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
 
-#### For Visium
+#### For Visium:
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
