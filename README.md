@@ -14,7 +14,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 For Stereo-seq
 
-1. To remove PCR duplicate reads and reads aligned to multiple loci
+Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
    perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
@@ -26,7 +26,7 @@ For Stereo-seq
    
    -samtools samtools: The path to the samtools executable.
    
-2. Supervised detection of RNA editing 
+Step 2. Supervised detection of RNA editing 
 
    perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
 
@@ -48,7 +48,7 @@ For Stereo-seq
 
 For Visium
 
-1. To remove PCR duplicate reads and reads aligned to multiple loci
+Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
    perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
@@ -60,7 +60,7 @@ For Visium
 
    -samtools samtools: The path to the samtools executable.
    
-2. Supervised detection of RNA editing 
+Step 2. Supervised detection of RNA editing 
 
    perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v1_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
 
