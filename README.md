@@ -12,9 +12,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ## Usage
 
-### For Stereo-seq
+#### For Stereo-seq
 
-### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
+#### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
    perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
@@ -26,7 +26,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
    -samtools samtools: The path to the samtools executable.
    
-### Step 2. Supervised detection of RNA editing 
+#### Step 2. Supervised detection of RNA editing 
 
    perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
 
@@ -46,9 +46,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
 
-### For Visium
+#### For Visium
 
-### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
+#### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
    perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
@@ -60,7 +60,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    -samtools samtools: The path to the samtools executable.
    
-### Step 2. Supervised detection of RNA editing 
+#### Step 2. Supervised detection of RNA editing 
 
    perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v1_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
 
