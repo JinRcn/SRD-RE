@@ -13,7 +13,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ## Usage
 
-We have tested our code on two widely-used spatial transcriptomics platforms, Stereo-seq and Visium.
+#### We have tested our code on two widely-used spatial transcriptomics platforms, Stereo-seq and Visium.
 
 
 #### For Stereo-seq:
