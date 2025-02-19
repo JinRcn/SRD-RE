@@ -20,11 +20,11 @@ For Stereo-seq
 
    optional arguments:
 
-   -inBam <input.bam>: Specifies the input BAM file.
+      -inBam <input.bam>: Specifies the input BAM file.
    
-   -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
+      -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
    
-   -samtools samtools: Specifies the path to the samtools executable.
+      -samtools samtools: Specifies the path to the samtools executable.
    
 3. Supervised detection of RNA editing 
 
