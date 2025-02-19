@@ -20,11 +20,11 @@ For Stereo-seq
 
    optional arguments:
 
-   -inBam <input.bam>: Specifies the input BAM file.
+   -inBam <input.bam>: The input BAM file.
    
-   -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
+   -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
    
-   -samtools samtools: Specifies the path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
    
 3. Supervised detection of RNA editing 
 
@@ -32,19 +32,19 @@ For Stereo-seq
 
    optional arguments:
 
-   -dataset dataset: Specifies the path to the dataset.
+   -dataset dataset: The path to the dataset.
 
-   -bam <output.bam>: Specifies the input BAM file (output from the previous step).
+   -bam <output.bam>: The input BAM file (output from the previous step).
 
-   -suffix bam: Specifies the suffix of the input file.
+   -suffix bam: The suffix of the input file.
 
-   -outdir outdir: Specifies the output directory for results.
+   -outdir outdir: The output directory for results.
 
-   -samtools samtools: Specifies the path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 
-   -phred 33: Specifies the Phred quality score encoding (33 for Illumina 1.8+).
+   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+).
 
-   -qual_cutoff 20: Specifies the quality cutoff for base calling.
+   -qual_cutoff 20: The quality cutoff for base calling.
 
 For Visium
 
@@ -54,11 +54,11 @@ For Visium
 
    optional arguments:
 
-   -inBam <input.bam>: Specifies the input BAM file.
+   -inBam <input.bam>: The input BAM file.
 
-   -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
+   -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
 
-   -samtools samtools: Specifies the path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
    
 3. Supervised detection of RNA editing 
 
@@ -66,21 +66,21 @@ For Visium
 
    optional arguments:
 
-   -barcode2slide Visium/barcodes/visium-v1_coordinates.txt: Specifies the path to the barcode-to-slide coordinates file.
+   -barcode2slide Visium/barcodes/visium-v1_coordinates.txt: The path to the barcode-to-slide coordinates file.
 
-   -dataset dataset: Specifies the path to the dataset.
+   -dataset dataset: The path to the dataset.
 
-   -bam <output.bam>: Specifies the input BAM file (output from the previous step).
+   -bam <output.bam>: The input BAM file (output from the previous step).
 
-   -suffix bam: Specifies the suffix of the input file.
+   -suffix bam: The suffix of the input file.
 
-   -outdir outdir: Specifies the output directory for results.
+   -outdir outdir: The output directory for results.
 
-   -samtools samtools: Specifies the path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 
-   -phred 33: Specifies the Phred quality score encoding (33 for Illumina 1.8+).
+   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+).
 
-   -qual_cutoff 20: Specifies the quality cutoff for base calling.
+   -qual_cutoff 20: The quality cutoff for base calling.
 
    Notes:
    
