@@ -32,7 +32,7 @@ For Stereo-seq
 
    optional arguments:
 
-   -dataset dataset: The path to the dataset. e.g. Known A-to-I RNA editing
+   -dataset dataset: The path to the dataset (e.g. Known A-to-I RNA editing)
 
    -bam <output.bam>: The input BAM file (output from the previous step).
 
@@ -68,7 +68,7 @@ For Visium
 
    -barcode2slide Visium/barcodes/visium-v*_coordinates.txt: The path to the barcode-to-slide coordinates file.
 
-   -dataset dataset: The path to the dataset. e.g. Known A-to-I RNA editing
+   -dataset dataset: The path to the dataset (e.g. Known A-to-I RNA editing)
 
    -bam <output.bam>: The input BAM file (output from the previous step).
 
