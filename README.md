@@ -42,7 +42,7 @@ For Stereo-seq
 
    -samtools samtools: The path to the samtools executable.
 
-   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+).
+   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+). [Default: 33]
 
    -qual_cutoff 20: The quality cutoff for base calling.
 
