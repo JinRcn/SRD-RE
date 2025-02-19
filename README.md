@@ -19,7 +19,9 @@ For Stereo-seq
    perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
    -inBam <input.bam>: Specifies the input BAM file.
+   
    -outBam <output.bam>: Specifies the output BAM file after removing duplicates and multi-mapped reads.
+   
    -samtools samtools: Specifies the path to the samtools executable.
    
 3. Supervised detection of RNA editing 
