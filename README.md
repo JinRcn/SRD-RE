@@ -15,6 +15,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 We have tested our code on two widely-used spatial transcriptomics platforms, Stereo-seq and Visium.
 
+
 #### For Stereo-seq:
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
@@ -48,6 +49,7 @@ We have tested our code on two widely-used spatial transcriptomics platforms, St
       -phred 33: The Phred quality score encoding. [Default: 33]
 
       -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
+
 
 #### For Visium:
 
