@@ -18,7 +18,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    Sorted BAM file with alignments ordered by leftmost coordinates is required as input.
    
-2. Supervised RNA editing detection
+2. Supervised detection of RNA editing 
 
    perl REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
 
