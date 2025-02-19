@@ -44,7 +44,7 @@ For Stereo-seq
 
    -phred 33: The Phred quality score encoding (33 for Illumina 1.8+). [Default: 33]
 
-   -qual_cutoff 20: The quality cutoff for base calling.
+   -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
 
 For Visium
 
@@ -78,9 +78,9 @@ For Visium
 
    -samtools samtools: The path to the samtools executable.
 
-   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+).
+   -phred 33: The Phred quality score encoding (33 for Illumina 1.8+). [Default: 33]
 
-   -qual_cutoff 20: The quality cutoff for base calling.
+   -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
 
 Notes:
    
