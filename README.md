@@ -20,6 +20,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
+```
    perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
    optional arguments:
@@ -29,6 +30,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
       -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
    
       -samtools samtools: The path to the samtools executable.
+```
    
 #### Step 2. Supervised detection of RNA editing 
 
