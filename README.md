@@ -54,6 +54,15 @@ optional arguments:
    -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
 
+Output of results:
+
+|X,Y | chromosome | coordinate | ReferenceBase | TotalReads | EditedReads |
+
+|-----|-----|-----|
+
+| 53801,56730 | chrX | 115260153 | A | 18 | 2 |
+
+
 #### For Visium:
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
