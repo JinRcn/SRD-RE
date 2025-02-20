@@ -21,37 +21,37 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
 ```
-   perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
+perl Stereo-seq/rmDup.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
-   optional arguments:
+optional arguments:
 
-      -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input.
+   -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input.
    
-      -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
+   -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
    
-      -samtools samtools: The path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 ```
    
 #### Step 2. Supervised detection of RNA editing 
 
 ```   
-   perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
+perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
-   optional arguments:
+optional arguments:
 
-      -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
+   -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
 
-      -bam <output.bam>: The input BAM file (output from the previous step).
+   -bam <output.bam>: The input BAM file (output from the previous step).
 
-      -suffix suffix: The suffix of the input file. [Default: bam]
+   -suffix suffix: The suffix of the input file. [Default: bam]
 
-      -outdir outdir: The output directory for results.
+   -outdir outdir: The output directory for results.
 
-      -samtools samtools: The path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 
-      -phred phred: The Phred quality score encoding. [Default: 33]
+   -phred phred: The Phred quality score encoding. [Default: 33]
 
-      -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
+   -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
 
 #### For Visium:
@@ -59,39 +59,39 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
 ```
-   perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
+perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
-   optional arguments:
+optional arguments:
 
-      -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input. 
+   -inBam <input.bam>: The input BAM file. Sorted BAM file with alignments ordered by leftmost coordinates is required as input. 
 
-      -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
+   -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
 
-      -samtools samtools: The path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 ```
 
 #### Step 2. Supervised detection of RNA editing 
 
 ```
-   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide barcode2slide -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
+perl Visium/REcallingStVisiumIllumina.pl -barcode2slide barcode2slide -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
-   optional arguments:
+optional arguments:
 
-      -barcode2slide barcode2slide: The path to the barcode-to-slide coordinates file, e.g. Visium/barcodes/visium-v1_coordinates.txt
+   -barcode2slide barcode2slide: The path to the barcode-to-slide coordinates file, e.g. Visium/barcodes/visium-v1_coordinates.txt
 
-      -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
+   -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
 
-      -bam <output.bam>: The input BAM file (output from the previous step).
+   -bam <output.bam>: The input BAM file (output from the previous step).
 
-      -suffix suffix: The suffix of the input file. [Default: bam]
+   -suffix suffix: The suffix of the input file. [Default: bam]
 
-      -outdir outdir: The output directory for results.
+   -outdir outdir: The output directory for results.
 
-      -samtools samtools: The path to the samtools executable.
+   -samtools samtools: The path to the samtools executable.
 
-      -phred phred: The Phred quality score encoding. [Default: 33]
+   -phred phred: The Phred quality score encoding. [Default: 33]
 
-      -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
+   -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
 [NOTE]
    
