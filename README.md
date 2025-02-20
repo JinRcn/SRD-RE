@@ -67,11 +67,11 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
-   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v*_coordinates.txt -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
+   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide barcode2slide -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
 
-      -barcode2slide Visium/barcodes/visium-v*_coordinates.txt: The path to the barcode-to-slide coordinates file.
+      -barcode2slide Visium/barcodes/visium-v*_coordinates.txt: The path to the barcode-to-slide coordinates file, e.g. Visium/barcodes/visium-v1_coordinates.txt
 
       -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
 
