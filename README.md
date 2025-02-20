@@ -71,7 +71,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
    optional arguments:
 
-      -barcode2slide Visium/barcodes/visium-v*_coordinates.txt: The path to the barcode-to-slide coordinates file, e.g. Visium/barcodes/visium-v1_coordinates.txt
+      -barcode2slide barcode2slide: The path to the barcode-to-slide coordinates file, e.g. Visium/barcodes/visium-v1_coordinates.txt
 
       -dataset dataset: The path to the dataset (Known A-to-I RNA editing, e.g. Dataset/REDIportalV2.0_Mouse_mm10.txt.gz)
 
