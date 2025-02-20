@@ -34,6 +34,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
+```   
    perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
@@ -51,12 +52,13 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
       -phred phred: The Phred quality score encoding. [Default: 33]
 
       -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
-
+```
 
 #### For Visium:
 
 #### Step 1. To remove PCR duplicate reads and reads aligned to multiple loci
    
+```
    perl Visium/rmDupStVisiumIllumina.pl -inBam <input.bam> -outBam <output.bam> -samtools samtools
 
    optional arguments:
@@ -66,9 +68,11 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
       -outBam <output.bam>: The output BAM file after removing duplicates and multi-mapped reads.
 
       -samtools samtools: The path to the samtools executable.
-   
+```
+
 #### Step 2. Supervised detection of RNA editing 
 
+```
    perl Visium/REcallingStVisiumIllumina.pl -barcode2slide barcode2slide -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
@@ -88,7 +92,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
       -phred phred: The Phred quality score encoding. [Default: 33]
 
       -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
-
+```
 [NOTE]
    
    Ensure that the paths to the Perl scripts and the samtools executable are correct. Replace <input.bam>, <output.bam>, dataset, outdir, and other placeholders with actual values specific to your data and environment. The -phred 33 option assumes that the quality scores are encoded using the Illumina 1.8+ format. If your data uses a different encoding, adjust this parameter accordingly. The -qual_cutoff 20 option sets a quality threshold for base calling, which can be adjusted based on the quality of your sequencing data.
