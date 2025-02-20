@@ -59,7 +59,7 @@ Output of results:
 
 Below is an example:
 
-| X,Y | chromosome | coordinate | Reference Base | Total Reads | Edited Reads |
+| X,Y | Chromosome | Coordinate | Reference Base | Total Reads | Edited Reads |
 
 |:-----|:-----|:-----|:-----|:-----|:-----|
 
