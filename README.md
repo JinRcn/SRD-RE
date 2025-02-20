@@ -32,7 +32,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
-   perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
+   perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
 
@@ -40,7 +40,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
       -bam <output.bam>: The input BAM file (output from the previous step).
 
-      -suffix bam: The suffix of the input file. [Default: bam]
+      -suffix suffix: The suffix of the input file. [Default: bam]
 
       -outdir outdir: The output directory for results.
 
@@ -67,7 +67,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
-   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v*_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
+   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v*_coordinates.txt -dataset dataset -bam <output.bam> -suffix suffix -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
 
@@ -77,7 +77,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
       -bam <output.bam>: The input BAM file (output from the previous step).
 
-      -suffix bam: The suffix of the input file. [Default: bam]
+      -suffix suffix: The suffix of the input file. [Default: bam]
 
       -outdir outdir: The output directory for results.
 
