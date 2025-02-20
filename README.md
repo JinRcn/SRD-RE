@@ -7,8 +7,8 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ## Requirements
 
-#### Samtools
-#### Perl
+- Samtools
+* Perl
 
 
 ## Usage
