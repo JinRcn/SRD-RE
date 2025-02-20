@@ -57,28 +57,24 @@ optional arguments:
 
 Output of results:
 
-Below is an example:
-
-| X,Y | Chromosome | Coordinate | Reference Base | Total Reads | Edited Reads |
-
-|:-----|:-----|:-----|:-----|:-----|:-----|
+For example,
 
 | 53801,56730 | chrX | 115260153 | A | 18 | 2 |
 
 ```
-Data Description:
+Column Descriptions:
 
-X, Y: Spatial Coordinate.
+1. X, Y: Spatial Coordinate.
 
-Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
+2. Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
 
-Coordinate: Genomic coordinate, 115260153 specifies the exact position on the X chromosome.
+3. Coordinate: Genomic coordinate, 115260153 specifies the exact position on the X chromosome.
 
-Reference Base: Reference genome base, A stands for Adenosine.
+4. Reference Base: Reference genome base, A stands for Adenosine.
 
-Total Reads: Total sequencing depth, 18 indicates there are 18 sequencing reads at this locus.
+5. Total Reads: Total sequencing depth, 18 indicates there are 18 sequencing reads at this locus.
 
-Edited Reads: Edited reads, 2 indicates that 2 out of 18 reads show editing events different from the reference base.
+6. Edited Reads: Edited reads, 2 indicates that 2 out of 18 reads show editing events different from the reference base.
 ```
 
 #### For Visium:
