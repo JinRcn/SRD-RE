@@ -55,7 +55,7 @@ optional arguments:
 ```
 
 
-Output of results:
+#### The output of the results includes a base count matrix, which is stored in TSV format.
 
 For example,
 
