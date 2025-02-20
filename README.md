@@ -53,15 +53,31 @@ optional arguments:
 
    -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
-
+```
 Output of results:
 
-|X,Y | chromosome | coordinate | ReferenceBase | TotalReads | EditedReads |
+Below is an example:
 
-|-----|-----|-----|
+| X,Y | chromosome | coordinate | Reference Base | Total Reads | Edited Reads |
+
+|:-----|:-----|:-----|:-----|:-----|:-----|
 
 | 53801,56730 | chrX | 115260153 | A | 18 | 2 |
 
+Data Description:
+
+X, Y: Spatial Coordinate.
+
+Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
+
+Coordinate: Genomic coordinate, 115260153 specifies the exact position on the X chromosome.
+
+Reference Base: Reference genome base, A stands for Adenosine.
+
+Total Reads: Total sequencing depth, 18 indicates there are 18 sequencing reads at this locus.
+
+Edited Reads: Edited reads, 2 indicates that 2 out of 18 reads show editing events different from the reference base.
+```
 
 #### For Visium:
 
