@@ -32,7 +32,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
-   perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+   perl Stereo-seq/REcallingSt.pl -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
 
@@ -46,9 +46,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
       -samtools samtools: The path to the samtools executable.
 
-      -phred 33: The Phred quality score encoding. [Default: 33]
+      -phred phred: The Phred quality score encoding. [Default: 33]
 
-      -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
+      -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 
 
 #### For Visium:
@@ -67,7 +67,7 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
    
 #### Step 2. Supervised detection of RNA editing 
 
-   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v*_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred 33 -qual_cutoff 20
+   perl Visium/REcallingStVisiumIllumina.pl -barcode2slide Visium/barcodes/visium-v*_coordinates.txt -dataset dataset -bam <output.bam> -suffix bam -outdir outdir -samtools samtools -phred phred -qual_cutoff qual_cutoff
 
    optional arguments:
 
@@ -83,9 +83,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
       -samtools samtools: The path to the samtools executable.
 
-      -phred 33: The Phred quality score encoding. [Default: 33]
+      -phred phred: The Phred quality score encoding. [Default: 33]
 
-      -qual_cutoff 20: The quality cutoff for base calling. [Default: 20]
+      -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 
 [NOTE]
    
