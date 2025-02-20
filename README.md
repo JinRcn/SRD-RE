@@ -53,7 +53,8 @@ optional arguments:
 
    -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
-```
+
+
 Output of results:
 
 Below is an example:
@@ -64,6 +65,7 @@ Below is an example:
 
 | 53801,56730 | chrX | 115260153 | A | 18 | 2 |
 
+```
 Data Description:
 
 X, Y: Spatial Coordinate.
