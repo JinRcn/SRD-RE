@@ -142,6 +142,10 @@ optional arguments:
   
 ## Citation
 
+## Contact
+
+If you have any comments or suggestions, please raise an issue or contact: Jinrong Huang (huangjinrong@genomics.cn)
+
    
    
 
