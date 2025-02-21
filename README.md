@@ -84,7 +84,7 @@ For example,
 ```
 Column Descriptions:
 
-   1. X, Y: X and Y denote the spatial coordinates of the capture locations on the spatial transcriptomics array.
+   1. X,Y: X and Y denote the spatial coordinates of the capture locations on the spatial transcriptomics array.
 
    2. Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
 
