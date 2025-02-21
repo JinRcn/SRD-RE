@@ -148,6 +148,12 @@ If you have any comments or suggestions, please raise an issue or contact me:
 
 Jinrong Huang (huangjinrong@genomics.cn)
 
+## License
+
+**SRD-RE is free for academic use only.**
+
+
+
    
    
 
