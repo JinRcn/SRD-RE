@@ -84,17 +84,17 @@ For example,
 ```
 Column Descriptions:
 
-1. X, Y: X and Y denote the spatial coordinates of the capture locations on the spatial transcriptomics array.
+   1. X, Y: X and Y denote the spatial coordinates of the capture locations on the spatial transcriptomics array.
 
-2. Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
+   2. Chromosome: Chromosome identifier, chrX indicates the locus is on the X chromosome.
 
-3. Coordinate: Genomic coordinate, 115260153 specifies the exact position on the X chromosome.
+   3. Coordinate: Genomic coordinate, 115260153 specifies the exact position on the X chromosome.
 
-4. Reference Base: Reference genome base, A stands for Adenosine.
+   4. Reference Base: Reference genome base, A stands for Adenosine.
 
-5. Total Reads: Total sequencing depth, 18 indicates there are 18 sequencing reads at this locus.
+   5. Total Reads: Total sequencing depth, 18 indicates there are 18 sequencing reads at this locus.
 
-6. Edited Reads: Edited reads, 2 indicates that 2 out of 18 reads show editing events different from the reference base.
+   6. Edited Reads: Edited reads, 2 indicates that 2 out of 18 reads show editing events different from the reference base.
 ```
 
 #### For Visium:
