@@ -25,7 +25,7 @@ chr1    10105739      A
 chr1    10105754      A
 chr1    10106540      A
 ```
-- For Visium, a barcode-to-slide coordinate file with three columns (barcode, X, and Y coordinates) must be provided.
+- For Visium, a tab-delimited file containing barcode-to-slide coordinates with three columns (barcode, X, and Y coordinates) must be provided.
 
 ```
 AAACAACGAATAGTTC        17      1
