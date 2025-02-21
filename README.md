@@ -77,11 +77,11 @@ optional arguments:
 
 #### The output of the results includes a base count matrix, which is stored in TSV format.
 
+```
 For example,
 
 | 53801,56730 | chrX | 115260153 | A | 18 | 2 |
 
-```
 Column Descriptions:
 
    1. X,Y: X and Y denote the spatial coordinates of the capture locations on the spatial transcriptomics array.
