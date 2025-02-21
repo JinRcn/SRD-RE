@@ -17,6 +17,13 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 - Aligned sequencing reads in BAM format
 - A file containing known RNA editing must include at least three columns (Chromosome, Coordinate, and Reference Base) and must be a tab-delimited file.
 
+```
+Chromosome   Coordinate  RefBase
+chr1    10098541      A
+chr1    10105739      A
+chr1    10105754      A
+chr1    10106540      A
+```
 
 #### For Stereo-seq:
 
