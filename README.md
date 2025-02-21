@@ -13,7 +13,9 @@ The framework SRD-RE (Spatially Resolved Detection of RNA Editing) was developed
 
 ## Usage
 
-#### We have tested our code on two widely-used spatial transcriptomics platforms, Stereo-seq and Visium.
+**We have tested our code on two widely-used spatial transcriptomics platforms, Stereo-seq and Visium.** SRD-RE requires the following data types as input:
+- Aligned sequencing reads in BAM format
+- A file containing known RNA editing must include at least three columns (Chromosome, Coordinate, and Reference Base) and must be a tab-delimited file.
 
 
 #### For Stereo-seq:
