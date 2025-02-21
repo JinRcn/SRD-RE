@@ -136,7 +136,7 @@ optional arguments:
 
    -qual_cutoff qual_cutoff: The quality cutoff for base calling. [Default: 20]
 ```
-[NOTE]
+**[NOTES]**
    
    Ensure that the paths to the Perl scripts and the samtools executable are correct. Replace <input.bam>, <output.bam>, dataset, outdir, and other placeholders with actual values specific to your data and environment. The -phred 33 option assumes that the quality scores are encoded using the Illumina 1.8+ format. If your data uses a different encoding, adjust this parameter accordingly. The -qual_cutoff 20 option sets a quality threshold for base calling, which can be adjusted based on the quality of your sequencing data.
   
