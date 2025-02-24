@@ -144,7 +144,7 @@ optional arguments:
 
 ## Contact
 
-If you have any comments or suggestions, please raise an issue or contact Dr Huang (huangjinrong@genomics.cn).
+If you have any comments or suggestions, please contact Dr Huang (huangjinrong@genomics.cn).
 
 ## License
 
