@@ -40,7 +40,8 @@ while (<IN>){
 	# Chromosome_ID   Coordinate      Ref_base        CodonChange     AminoAcidChange Gene    Annotation      Detailed information    Repeat
 	# 1       25274   A       -       -       ENSSSCG00000027257:PSMB1        intronic        ENSSSCG00000027257:PSMB1:intronic       SINE/tRNA
 	# 1       4846284 T       -       -       ENSSSCG00000004029:QKI  intronic        ENSSSCG00000004029:QKI:intronic SINE/tRNA
-	next if $.==1;
+	chomp;
+ 	next if $.==1;
 	my ($chr,$pos,$ref)=(split /\t/)[0,1,2];
 	$dataset{"$chr\t$pos"}=$ref;
 }
