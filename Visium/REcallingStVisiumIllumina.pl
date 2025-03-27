@@ -52,7 +52,8 @@ if($dataset=~/\.gz$/){open IN,"gunzip -cd <$dataset|" or die $!;}else{open IN,"<
 while (<IN>){
 	# Region  Position        Ref     Ed      Strand  db      type    dbsnp   repeat  Func.wgEncodeGencodeBasicVM16   Gene.wgEncodeGencodeBasicVM16   GeneDetail.wgEncodeGencodeBasicVM16     ExonicFunc.wgEncodeGencodeBasicVM16     AAChange.wgEncodeGencodeBasicVM16       Func.refGene    Gene.refGene    GeneDetail.refGene      ExonicFunc.refGene      AAChange.refGene        Func.knownGene  Gene.knownGene  GeneDetail.knownGene    ExonicFunc.knownGene    AAChange.knownGene      phastConsElements60way	
 	# chr3    80692286        T       C       -       A,R,D   NONREP  -       -/-     exonic  Gria2   nonsynonymous SNV       Gria2:ENSMUST00000075316.9:exon13:c.A2290G:p.R764G,Gria2:ENSMUST00000107745.7:exon13:c.A2290G:p.R764G   exonic  Gria2   nonsynonymous SNV       Gria2:NM_001039195:exon13:c.A2290G:p.R764G,Gria2:NM_001083806:exon13:c.A2290G:p.R764G,Gria2:NM_001357924:exon13:c.A2290G:p.R764G,Gria2:NM_001357927:exon13:c.A2290G:p.R764G,Gria2:NM_013540:exon13:c.A2290G:p.R764G     exonic  Gria2   nonsynonymous SNV       Gria2:uc008pnz.1:exon12:c.A2149G:p.R717G,Gria2:uc008poa.1:exon13:c.A2290G:p.R764G,Gria2:uc008pob.1:exon13:c.A2290G:p.R764G,Gria2:uc008pod.1:exon13:c.A2290G:p.R764G     715;1306
-	next if $.==1;
+	chomp;
+ 	next if $.==1;
 	my ($chr,$pos,$ref)=(split /\t/)[0,1,2];
 	$chr="chr$chr" unless ($chr =~/^chr/);
 	$dataset{"$chr\t$pos"}=$ref;
